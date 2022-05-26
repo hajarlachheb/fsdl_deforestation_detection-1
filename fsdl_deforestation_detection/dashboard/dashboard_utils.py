@@ -15,7 +15,7 @@ import colorlover as cl
 from google.cloud import storage, bigquery
 import io
 
-sys.path.append("fsdl_deforestation_detection/data/")
+sys.path.append("/fsdl_deforestation_detection/fsdl_deforestation_detection/data/")
 from data_utils import (
     DATA_PATH,
     TAGS,
